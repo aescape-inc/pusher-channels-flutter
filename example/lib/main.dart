@@ -68,6 +68,7 @@ class _MyAppState extends State<MyApp> {
         onMemberAdded: onMemberAdded,
         onMemberRemoved: onMemberRemoved,
         onSubscriptionCount: onSubscriptionCount,
+        host: 'test.example.com',
         // authEndpoint: "<Your Authendpoint Url>",
         // onAuthorizer: onAuthorizer
       );
