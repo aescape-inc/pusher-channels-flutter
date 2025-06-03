@@ -116,7 +116,7 @@ class PusherChannelsFlutterWeb {
 
     if (error['type'] == 'PusherError') {
       methodChannel!.invokeMethod('onError', {
-        'message': error['data']?['message'],
+        'message': error['data']?['message'] ?? '',
         'code': error['data']?['code'],
         'error': error,
       });
